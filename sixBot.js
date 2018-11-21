@@ -21,9 +21,9 @@ client.on ("message", (message) => {
         message.channel.send ("*Yo we got 6?*");
     }
 
-    if (message.content.startsWith ("change bot avatar")) {
-        image = message.attachments.first().url;
-        client.user.setAvatar (image);
-    }
+    //if (message.content.startsWith ("change bot avatar")) {
+        //image = message.attachments.first().url;
+        //client.user.setAvatar (image);
+    //}
     
 });
