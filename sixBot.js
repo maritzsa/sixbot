@@ -13,8 +13,6 @@ client.on ("ready", () => {
 client.login (process.env.token);
 
 client.on ("message", (message) => {
-    
-    if (message.author.bot) return;
 
 
     if (message.content.includes ("Yo we got?") || message.content.includes ("6") || message.content.includes ("deceit") || message.content.includes ("Deceit")) {
